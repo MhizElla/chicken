@@ -1,0 +1,201 @@
+body{
+    font-family: montserrat;
+    text-align: center;
+}
+.navbar{
+    height: 70px;
+    background-color: rgb(213, 178, 4);
+}
+.image{
+    object-fit: cover;
+    padding-bottom: 4rem;
+    position: relative;
+}
+img{
+    height: 40rem;
+    width: 150rem;
+    
+}
+
+.chicken{
+    display: flex;
+    position: absolute;
+    top: 40rem;
+    margin-left: 37rem;
+    border-radius: 15px;
+    box-shadow: 0px 5px 5px -2px #302d2d;
+    background-color: #fff;
+    height: 12rem;
+    width: 40rem; 
+}
+.chickentitle{
+    display: flex;
+    position: absolute;
+    bottom: 8rem;
+    left: 9rem;
+    font-size: 35px;
+    font-weight: 500;
+    text-align: right;
+}
+.icons {
+    display: flex;
+    
+    position: absolute;
+    top: 6rem;
+    left: 8rem;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  .icon-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 12px; /* Add margin between icon-wrapper elements */
+    margin-right: 20px; /* Add margin between icon-wrapper elements */
+  }
+  .icon-wrapper2{
+    display: flex;
+    position: relative;
+    left: 7rem;
+    bottom: 4rem;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px; /* Add margin between icon-wrapper elements */
+    margin-right: 20px;  /* Add margin between icon-wrapper elements */
+  }
+  .icon-wrapper3{
+    display: flex;
+    position: absolute;
+    left: 14rem;
+    bottom: 4rem;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px; /* Add margin between icon-wrapper elements */
+    margin-right: 20px;  /* Add margin between icon-wrapper elements */
+  }
+  
+  .icon-wrapper i {
+    margin-bottom: 10px; /* Add space between icon and h3 */
+    margin-right: 5px; /* Add space between icon and h3 */
+  }
+  
+  
+  .icons i,
+  .icons h3 {
+    font-size: 20px;
+    color: rgb(70, 71, 73);
+    margin-right: 10px; /* Add margin between icons and h3 elements */
+  }
+  
+  .icons i:last-child,
+  .icons h3:last-child {
+    margin-right: 0; /* Remove margin on the last elements */
+  }
+  
+
+.search{
+    background-color: rgb(248, 246, 242);
+    display: flex;
+    position: absolute;
+    top: 57rem;
+    width: 50rem;
+    height: 4rem;
+    display: flex;
+    text-align: center;
+    border-radius: 30px;
+    margin-left: 32rem;
+}
+.searchtext{
+    color: rgb(189, 187, 185);
+    font-size: 24px;
+    font-family: montserrat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15rem;
+}
+.award-container{
+    margin-top: 12rem;
+}
+.award{
+    display: flex;
+    position: absolute;
+    left: 5rem;
+    width: 100px;
+    height: 100px;
+
+}
+.title{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: left;
+    margin-left: 11rem;
+   display: flex;
+   position: relative;
+   top: 2rem;
+}
+.chief{
+    display: flex;
+    padding: 15px;
+    
+    
+}
+
+.img{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    position: relative;
+    top: 20px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-left: 4rem;
+    
+}
+.burgers{
+    margin-top: 4rem;
+    justify-content: space-between;
+    padding: 0;
+}
+.burger{
+    display: flex;
+    position: relative;
+    bottom: 1rem;
+    font-size: 30px;
+    font-family: montserrat;
+    font-weight: 500;
+    text-align: left;
+   
+    margin-left: 1rem;
+    line-height: 4;
+   
+}
+.chief .description {
+    margin-top: 10px; /* Add margin or padding as per your requirement */
+   
+  }
+  
+h6{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.description{
+    display: flex;
+    font-size: 20px;
+    position: absolute;
+    left: 8rem;
+    color: rgb(116, 115, 113);
+    text-align: center;
+    padding: 4rem;
+}
+h2{
+    display: flex;
+    position: relative;
+   bottom: 0rem;
+    left: 70rem;
+    text-align: left;
+}
